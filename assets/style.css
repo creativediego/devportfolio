@@ -1,0 +1,52 @@
+html {
+    font-size: 17px;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%vh;
+}
+
+main {
+    padding: 4rem !important;
+}
+
+a:link {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+    .profile {
+        display: block;
+    }
+    #side-nav {
+        height: 100vh;
+        left: 0;
+        top: 0;
+        width: 15rem;
+        position: fixed;
+    }
+    .brand {
+        display: none;
+    }
+    .navbar-collapse {
+        flex-grow: inherit;
+    }
+    .navbar-expand-lg {
+        flex-flow: column;
+    }
+    nav {
+        padding-top: 5rem !important;
+    }
+}
